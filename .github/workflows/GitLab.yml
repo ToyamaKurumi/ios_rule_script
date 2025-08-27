@@ -1,0 +1,32 @@
+name: GitLab
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub
+        uses: actions/checkout@v4
+        with:
+          repository: ToyamaKurumi/ios_rule_script
+          token: ${{ secrets.GitHub }}
+          ref: master
+          fetch-depth: 0
+
+      - name: GitLab
+        run: |
+          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
+          git fetch upstream
+          git merge upstream/master --ff-only
+          git push origin master
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GitLab }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+          git remote add gitlab git@gitlab.com:toyamakurumi/ios_rule_script.git
+          git push gitlab master
+          
