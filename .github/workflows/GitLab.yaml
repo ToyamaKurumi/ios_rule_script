@@ -2,7 +2,7 @@ name: GitLab
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
         run: |
           git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
           git fetch upstream
-          git merge upstream/master --ff-only
+          git merge upstream/master || true
           git push origin master
           mkdir -p ~/.ssh
           echo "${{ secrets.GitLab }}" > ~/.ssh/id_ed25519
