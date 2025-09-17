@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-08-28 02:08:27
+# UPDATED: 2025-09-16 02:08:26
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6496
+# DOMAIN-SUFFIX: 6502
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6628
+# TOTAL: 6634
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -781,6 +781,8 @@ payload:
   - '+.bsky.network'
   - '+.bsky.social'
   - '+.bt2mag.com'
+  - '+.bt4g.org'
+  - '+.bt4gprx.com'
   - '+.bt95.com'
   - '+.btaia.com'
   - '+.btbit.net'
@@ -2823,6 +2825,7 @@ payload:
   - '+.iphonetaiwan.org'
   - '+.iphonix.fr'
   - '+.ipicture.ru'
+  - '+.ipify.org'
   - '+.ipinfo.io'
   - '+.ipjetable.net'
   - '+.ipn.li'
@@ -3401,6 +3404,7 @@ payload:
   - '+.mcaf.ee'
   - '+.mcfog.com'
   - '+.mcreasite.com'
+  - '+.mcusercontent.com'
   - '+.md-t.org'
   - '+.me.me'
   - '+.meansys.com'
@@ -5154,6 +5158,7 @@ payload:
   - '+.taiwanus.net'
   - '+.taiwanyes.com'
   - '+.talk853.com'
+  - '+.talkatone.com'
   - '+.talkboxapp.com'
   - '+.talkcc.com'
   - '+.talkonly.net'
@@ -5161,6 +5166,7 @@ payload:
   - '+.tanc.org'
   - '+.tangben.com'
   - '+.tangren.us'
+  - '+.tanks.gg'
   - '+.taoism.net'
   - '+.taolun.info'
   - '+.tap.io'

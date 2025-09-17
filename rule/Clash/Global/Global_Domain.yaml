@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-08-28 02:08:06
+# UPDATED: 2025-09-16 02:08:05
 # DOMAIN: 110
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31831
+# DOMAIN-SUFFIX: 31840
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 32094
+# TOTAL: 32103
 payload:
   - '1password.drift.click'
   - 'adobeereg.com'
@@ -1488,6 +1488,7 @@ payload:
   - '+.amazonaws.tv'
   - '+.amazonbusiness.org'
   - '+.amazonbusinessblog.com'
+  - '+.amazoncognito.com'
   - '+.amazondevicesupport.com'
   - '+.amazonfctours.com'
   - '+.amazonianblog.com'
@@ -2591,6 +2592,8 @@ payload:
   - '+.awlc.ac.uk'
   - '+.aws-iot-hackathon.com'
   - '+.aws.com'
+  - '+.awsapprunner.com'
+  - '+.awsapps.com'
   - '+.awsautopilot.com'
   - '+.awsautoscaling.com'
   - '+.awsbraket.com'
@@ -26266,6 +26269,8 @@ payload:
   - '+.bsky.network'
   - '+.bsky.social'
   - '+.bt2mag.com'
+  - '+.bt4g.org'
+  - '+.bt4gprx.com'
   - '+.bt95.com'
   - '+.btaia.com'
   - '+.btbit.net'
@@ -28288,6 +28293,7 @@ payload:
   - '+.iphonetaiwan.org'
   - '+.iphonix.fr'
   - '+.ipicture.ru'
+  - '+.ipify.org'
   - '+.ipinfo.io'
   - '+.ipjetable.net'
   - '+.ipn.li'
@@ -28862,6 +28868,7 @@ payload:
   - '+.mcaf.ee'
   - '+.mcfog.com'
   - '+.mcreasite.com'
+  - '+.mcusercontent.com'
   - '+.md-t.org'
   - '+.me.me'
   - '+.meansys.com'
@@ -30604,6 +30611,7 @@ payload:
   - '+.taiwanus.net'
   - '+.taiwanyes.com'
   - '+.talk853.com'
+  - '+.talkatone.com'
   - '+.talkboxapp.com'
   - '+.talkcc.com'
   - '+.talkonly.net'
@@ -30611,6 +30619,7 @@ payload:
   - '+.tanc.org'
   - '+.tangben.com'
   - '+.tangren.us'
+  - '+.tanks.gg'
   - '+.taoism.net'
   - '+.taolun.info'
   - '+.tap.io'

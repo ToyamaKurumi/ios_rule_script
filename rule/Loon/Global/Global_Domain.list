@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-08-28 02:08:06
+# UPDATED: 2025-09-16 02:08:05
 # DOMAIN: 110
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31831
+# DOMAIN-SUFFIX: 31840
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 32139
+# TOTAL: 32148
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -1652,6 +1652,7 @@
 .amazonaws.tv
 .amazonbusiness.org
 .amazonbusinessblog.com
+.amazoncognito.com
 .amazondevicesupport.com
 .amazonfctours.com
 .amazonianblog.com
@@ -2941,6 +2942,8 @@
 .awlc.ac.uk
 .aws-iot-hackathon.com
 .aws.com
+.awsapprunner.com
+.awsapps.com
 .awsautopilot.com
 .awsautoscaling.com
 .awsbraket.com
@@ -5121,6 +5124,8 @@
 .bsw.jp
 .bsxm1213.pro
 .bt2mag.com
+.bt4g.org
+.bt4gprx.com
 .bt95.com
 .btaia.com
 .btas.ac.uk
@@ -15153,6 +15158,7 @@
 .iphoto.wang
 .ipi.ac.uk
 .ipicture.ru
+.ipify.org
 .ipinfo.io
 .ipjetable.net
 .ipleadership.org
@@ -17857,6 +17863,7 @@
 .mcstories.com
 .mcsw.ac.uk
 .mctimoney-college.ac.uk
+.mcusercontent.com
 .md-t.org
 .mdbankpublic.com
 .mdhcdn.com
@@ -26555,6 +26562,7 @@
 .talentlens.com
 .taleofthenight.com
 .talk853.com
+.talkatone.com
 .talkboxapp.com
 .talkcc.com
 .talkinghealthmatters.ac.uk
@@ -26576,6 +26584,7 @@
 .tanflix.com
 .tangben.com
 .tangren.us
+.tanks.gg
 .taoil-cn.sbs
 .taoism.net
 .taolun.info
