@@ -19,6 +19,8 @@ jobs:
 
       - name: GitLab
         run: |
+          git config --global user.email "102277826+ToyamaKurumi@users.noreply.github.com"
+          git config --global user.name "ToyamaKurumi"
           git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
           git fetch upstream
           git merge upstream/master || true
